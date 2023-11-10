@@ -1,47 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Quiz App</title>
-</head>
-<body>
-    <header>
-        <h1 class="title">Quiz App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Quiz App - Home</title>
+  </head>
+  <body>
+    <header aria-labelledby="title">
+      <h1 class="title">Quiz App</h1>
     </header>
     <main>
-        <section class="questions">
-            <article class="question-container">
-                <img src="#" alt="Icon" class="bookmark">
-                <h2 class="question"></h2>
-                <button class="answer-button"></button>
-                <div class="tags">
-                    <span class="tag">#html</span>
-                    <span class="tag">#flexbox</span>
-                    <span class="tag">#css</span>
-                </div>
-            </article>
-            <article class="question-container">
-                <img src="#" alt="Icon" class="bookmark">
-                <h2 class="question"></h2>
-                <button class="answer-button"></button>
-                <div class="tags">
-                    <span class="tag">#html</span>
-                    <span class="tag">#flexbox</span>
-                    <span class="tag">#css</span>
-                </div>
-            </article>
-        </section>
+      <section class="question-block">
+        <img
+          class="question-bookmark"
+          src="assets/icons/bookmark.svg"
+          alt="Bookmark Icon"
+          class="bookmark"
+          aria-hidden="true"
+        />
+        <article class="question-container">
+          <h2 class="question">What property flip the axes in flexbox?</h2>
+          <button aria-label="Show Answer" class="answer-button">Show Answer</button>
+          <p aria-label="Answer" class="answer hidden">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            sequi impedit ipsum expedita, aliquid iure minus sunt recusandae
+            cumque accusantium voluptatem reiciendis inventore excepturi dolorem
+            veniam similique! Doloribus id, recusandae natus corporis libero
+            tempora itaque placeat pariatur exercitationem? Animi aliquid vero
+            corrupti quidem mollitia aspernatur ducimus ipsum laudantium illo
+            adipisci?
+          </p>
+        </article>
+        <ul class="tags">
+          <li class="tag">#html</li>
+          <li class="tag">#flexbox</li>
+          <li class="tag">#css</li>
+        </ul>
+      </section>
+      <section class="question-block">
+        <img
+          class="question-bookmark"
+          src="assets/icons/bookmark-outline.svg"
+          alt="Bookmark Icon"
+          class="bookmark"
+          aria-hidden="true"
+        />
+        <article class="question-container">
+          <h2 class="question">What property flip the axes in flexbox?</h2>
+          <button aria-label="Show Answer" class="answer-button">Show Answer</button>
+          <p aria-label="Answer" class="answer hidden">flex-direction</p>
+        </article>
+        <ul class="tags">
+          <li class="tag">#html</li>
+          <li class="tag">#flexbox</li>
+          <li class="tag">#css</li>
+        </ul>
+      </section>
+      <section class="question-block">
+        <img
+          class="question-bookmark"
+          src="assets/icons/bookmark.svg"
+          alt="Bookmark Icon"
+          class="bookmark"
+          aria-hidden="true"
+        />
+        <article class="question-container">
+          <h2 class="question">What property flip the axes in flexbox?</h2>
+          <button aria-label="Show Answer" class="answer-button">Show Answer</button>
+          <p aria-label="Answer" class="answer hidden">flex-direction</p>
+        </article>
+        <ul class="tags">
+          <li class="tag">#html</li>
+          <li class="tag">#flexbox</li>
+          <li class="tag">#css</li>
+        </ul>
+      </section>
+      <section class="question-block">
+        <img
+          class="question-bookmark"
+          src="assets/icons/bookmark-outline.svg"
+          alt="Bookmark Icon"
+          class="bookmark"
+          aria-hidden="true"
+        />
+        <article class="question-container">
+          <h2 class="question">What property flip the axes in flexbox?</h2>
+          <button aria-label="Show Answer" class="answer-button">
+            Show Answer
+          </button>
+          <p aria-label="Answer" class="answer hidden">flex-direction</p>
+        </article>
+        <ul class="tags">
+          <li class="tag">#html</li>
+          <li class="tag">#flexbox</li>
+          <li class="tag">#css</li>
+        </ul>
+      </section>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Bookmarks</a></li>
-                <li><a href="#">Profile</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                class="nav-icon"
+                src="assets/icons/home.svg"
+                alt="Home icon - Link to Homepage"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="bookmarks.html">
+              <img
+                class="nav-icon"
+                src="assets/icons/bookmark-outline.svg"
+                alt="Bookmark icon - Link to Bookmark Page"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <img
+                class="nav-icon"
+                src="assets/icons/person-outline.svg"
+                alt="Profile icon - Link to Profile page"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
