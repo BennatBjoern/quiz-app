@@ -1,0 +1,15 @@
+.answer-button {
+  padding: 20px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: var(--accent-color2);
+  color: var(--white);
+  transition: all 0.3s;
+  margin-bottom: 50px;
+}
+
+.answer-button:hover {
+  background-color: var(--accent-color1);
+}
